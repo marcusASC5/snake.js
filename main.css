@@ -5,13 +5,19 @@
 
 .header h1{
 	color:#FF570A;
+	display: flex;
+	justify-content: center;
 }
 
 .header h4{
 	color:#420039;
+	display: flex;
+	justify-content: center;
 }
 
 .gameButtons{
+	display: flex;
+	justify-content: center;
 	position: absolute;
 	top:560px;
 	left:475px;
@@ -66,3 +72,52 @@ body{
 	border-style: solid;
 	border-color: #D72638;
 }
+
+@media only screen and (max-height: 550px)
+{
+	.gameCanvas{
+		height: 150px;
+	}
+
+	.gameButtons{
+		top: 360px;
+	}
+
+}
+
+@media only screen and (max-width: 1200px)
+{
+	.gameCanvas{
+		width: 900px;
+	}
+}
+
+@media only screen and (max-width: 1100px)
+{
+	.gameCanvas{
+		width: 700px;
+	}
+}
+
+@media only screen and (max-width: 1000px)
+{
+	.gameCanvas{
+		width: 600px;
+	}
+}
+
+@media only screen and (max-width: 900px)
+{
+	.gameCanvas{
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 800px)
+{
+	.gameCanvas{
+		width: 400px;
+	}
+}
+
+
