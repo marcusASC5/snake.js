@@ -1,0 +1,68 @@
+.header {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header h1{
+	color:#FF570A;
+}
+
+.header h4{
+	color:#420039;
+}
+
+.gameButtons{
+	position: absolute;
+	top:560px;
+	left:475px;
+	right:475px;
+}
+
+.gameButtons button{
+	background-color: #420039;
+  	border: 1px solid green;
+  	color: white;
+  	padding: 10px 24px;
+  	cursor: pointer;
+  	float: none;
+}
+
+.gameButtons button:not(:last-child) {
+  border-right: none;
+}
+
+.gameButtons:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.gameButtons button:hover {
+  background-color: #3e8e41;
+}
+
+.scoreArea{
+	font-family: 'Baloo 2', cursive;
+	text-align: center;
+	position:absolute;
+}
+
+body{
+	background: #FFFCF9;
+	padding:10px;
+}
+
+.gameCanvas{
+	position: absolute;
+	top:140px;
+	left:125px;
+
+	background: #12355B; /* Same color to be used in case of use of rect on canvas*/
+
+	height: 400px;
+	width: 1000px;
+
+	border:5px;
+	border-style: solid;
+	border-color: #D72638;
+}
